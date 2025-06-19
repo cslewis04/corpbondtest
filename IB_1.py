@@ -18,7 +18,8 @@ from streamlit_lottie import st_lottie
 from time import sleep
 
 warnings.filterwarnings(action='ignore')
-API_KEY = '9ed5bc3d6d1fee4f927c5d6a44eb5368d222824c'
+#API_KEY = '9ed5bc3d6d1fee4f927c5d6a44eb5368d222824c'
+API_KEY = '71b753d5fc4afd62bcafda3e1ae36fc53aad1cff'
 
 ### STEP1. 증권신고서(체무증권)의 최초신고서와 정정신고서 정보 가져오기
 def get_info(bgn_de, end_de) :
